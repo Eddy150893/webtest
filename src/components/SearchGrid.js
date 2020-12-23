@@ -7,7 +7,7 @@ export const SearchGrid = ({search}) => {
     return (
         <>
         <h3 className="animate__animated animate__fadeIn">{search}</h3>
-        {loading&&<p className="animate__animated animate__flash">Loading...</p>}
+        {loading&&<p className="animate__animated animate__flash"></p>}
         <h1>TV Maze</h1>
         <div className="box">
                 {!loading&&tvmaze.map(tvshow=>(
